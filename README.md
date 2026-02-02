@@ -36,53 +36,54 @@ Below is the roadmap followed during the project:
 
 ## 📌 Project Requirements
 
-This project answers key business questions derived from the final analytical reports:
+This project answers key business questions derived from the final analytical reports.
 
 ### 👥 Customer Report
-- Who are the most valuable customers?
-- What is each customer's purchase behavior?
-- Customer lifetime value indicators
-- Purchase frequency and recency
-- Customer product diversity
+- Identify the most valuable customers  
+- Analyze customer purchase frequency and recency  
+- Measure customer lifetime value indicators  
+- Understand customer buying behavior  
+- Evaluate product diversity per customer  
 
 ### 📦 Product Report
-- Best-selling products
-- Revenue contribution by product
-- Product demand trends over time
-- Product performance ranking
-- Quantity vs revenue analysis
+- Identify best-selling products  
+- Measure revenue contribution by product  
+- Analyze product demand trends over time  
+- Rank product performance  
+- Compare quantity sold vs revenue generated  
 
-The SQL scripts build structured queries to generate these insights from raw sales data.
+The SQL scripts transform raw sales data into structured analytical outputs that answer these business questions.
 
 ---
 
 ## 📂 Repository Structure
 
+```
 sql-data-analytics-project/
 │
-├── datasets/ # Raw or reference datasets
+├── datasets/                  # Raw or reference datasets
 │
 ├── documents/
-│ └── project_roadmap.png # Project workflow visualization
+│   └── project_roadmap.png    # Project workflow visualization
 │
 ├── scripts/
-│ ├── 00_init_database.sql
-│ ├── 01_database_exploration.sql
-│ ├── 02_dimensions_exploration.sql
-│ ├── 03_date_range_exploration.sql
-│ ├── 04_measures_exploration.sql
-│ ├── 05_magnitude_analysis.sql
-│ ├── 06_ranking_analysis.sql
-│ ├── 07_change_over_time_analysis.sql
-│ ├── 08_cumulative_analysis.sql
-│ ├── 09_performance_analysis.sql
-│ ├── 10_data_segmentation_analysis.sql
-│ ├── 11_part_to_whole_analysis.sql
-│ ├── 12_customer_report.sql
-│ └── 13_product_report.sql
+│   ├── 00_init_database.sql
+│   ├── 01_database_exploration.sql
+│   ├── 02_dimensions_exploration.sql
+│   ├── 03_date_range_exploration.sql
+│   ├── 04_measures_exploration.sql
+│   ├── 05_magnitude_analysis.sql
+│   ├── 06_ranking_analysis.sql
+│   ├── 07_change_over_time_analysis.sql
+│   ├── 08_cumulative_analysis.sql
+│   ├── 09_performance_analysis.sql
+│   ├── 10_data_segmentation_analysis.sql
+│   ├── 11_part_to_whole_analysis.sql
+│   ├── 12_customer_report.sql
+│   └── 13_product_report.sql
 │
 └── README.md
-
+```
 
 ---
 
@@ -90,7 +91,7 @@ sql-data-analytics-project/
 
 Hi there! I'm **Novia Noer Ramdiany**. I’m passionate about data and turning raw numbers into meaningful insights.
 
-Let’s stay in touch!  
+Let's stay in touch!  
 Feel free to connect with me on LinkedIn:  
 🔗 https://www.linkedin.com/in/noviaramdiany/
 
